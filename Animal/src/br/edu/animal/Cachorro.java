@@ -2,7 +2,7 @@ package br.edu.animal;
 
 import br.edu.interfaces.*;
 
-public class Cachorro extends Canino {
+public class Cachorro extends Canino implements Pet {
 	
 	public void latido() {
 		System.out.println("au, au!");
