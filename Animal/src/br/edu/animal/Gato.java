@@ -3,6 +3,7 @@ package br.edu.animal;
 import br.edu.interfaces.*;
 
 public class Gato extends Felino implements Pet {
+
 	public void comer() {
 		System.out.println("nham nham nham");
 	}
@@ -12,7 +13,6 @@ public class Gato extends Felino implements Pet {
 	public void Brincar() {
 		
 	}
-	
 	public void SerAmigavel() {
 		
 	}
