@@ -2,7 +2,7 @@ package br.edu.animal;
 
 import br.edu.interfaces.*;
 
-public class Gato extends Felino {
+public class Gato extends Felino implements Pet {
 	public void comer() {
 		System.out.println("nham nham nham");
 	}
