@@ -13,7 +13,6 @@ public class Cachorro extends Canino implements Pet {
 	public void Brincar() {
 		
 	}
-	
 	public void SerAmigavel() {
 		
 	}
